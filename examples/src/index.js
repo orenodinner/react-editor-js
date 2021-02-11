@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom'
 import React, { Component } from 'react'
 
-import EditorJs from 'react-editor-js'
+import EditorJs from 'react-editor-js-oreno'
 
 import { EDITOR_JS_TOOLS } from './constants'
 

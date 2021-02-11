@@ -1,5 +1,5 @@
 {
-  "name": "react-editor-js",
+  "name": "react-editor-js-oreno",
   "version": "1.9.0",
   "description": "The unofficial editor-js component for React",
   "author": "Jungwoo An <o1o9814@naver.com>",
@@ -10,8 +10,8 @@
     "editorjs",
     "@editorjs"
   ],
-  "main": "./dist/react-editor-js.umd.js",
-  "module": "./dist/react-editor-js.es.js",
+  "main": "./dist/react-editor-js-oreno.umd.js",
+  "module": "./dist/react-editor-js-oreno.es.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "rollup --config --environment NODE_ENV:production",
@@ -21,10 +21,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jungwoo-An/react-editor-js.git"
+    "url": "https://github.com/Jungwoo-An/react-editor-js-oreno.git"
   },
   "bugs": {
-    "url": "https://github.com/Jungwoo-An/react-editor-js/issues"
+    "url": "https://github.com/Jungwoo-An/react-editor-js-oreno/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",

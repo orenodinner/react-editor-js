@@ -1,5 +1,5 @@
 {
-  "name": "react-editor-js-example",
+  "name": "react-editor-js-oreno-example",
   "private": true,
   "version": "1.0.0",
   "main": "./src/index.js",
@@ -23,6 +23,6 @@
     "@editorjs/warning": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-editor-js": "latest"
+    "react-editor-js-oreno": "latest"
   }
 }

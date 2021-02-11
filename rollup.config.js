@@ -1,6 +1,6 @@
 import typescript from 'rollup-plugin-typescript2'
 
-const FILENAME = 'dist/react-editor-js'
+const FILENAME = 'dist/react-editor-js-oreno'
 
 const plugins = [typescript()]
 
@@ -14,14 +14,14 @@ export default {
       sourcemap: true,
       globals: {
         react: 'React',
-        '@editorjs/editorjs': 'EditorJS'
-      }
+        '@editorjs/editorjs': 'EditorJS',
+      },
     },
     {
       file: `${FILENAME}.es.js`,
       format: 'es',
-      sourcemap: true
-    }
+      sourcemap: true,
+    },
   ],
   external: [
     'react',
@@ -42,7 +42,7 @@ export default {
     '@editorjs/raw',
     '@editorjs/simple-image',
     '@editorjs/table',
-    '@editorjs/warning'
+    '@editorjs/warning',
   ],
-  plugins
+  plugins,
 }

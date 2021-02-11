@@ -9,7 +9,7 @@ labels: 'bug'
 <!-- Please type package version -->
 
 - @editorjs/editorjs version: x.y.z
-- react-editor-js version: x.y.z
+- react-editor-js-oreno version: x.y.z
 
 ### Describe
 

@@ -1,19 +1,19 @@
 <div align="center">
-  <img alt="Logo" src="static/react-editor-js.png" width="400px">
+  <img alt="Logo" src="static/react-editor-js-oreno.png" width="400px">
 </div>
 
 <div align="center">
 
-[![npm version](https://badge.fury.io/js/react-editor-js.svg)](https://badge.fury.io/js/react-editor-js)
-![LICENSE](https://img.shields.io/npm/l/react-editor-js?color=blue)
-[![Github Build Status](https://github.com/Jungwoo-An/react-editor-js/workflows/release/badge.svg)](https://github.com/Jungwoo-An/react-editor-js/actions)
+[![npm version](https://badge.fury.io/js/react-editor-js-oreno.svg)](https://badge.fury.io/js/react-editor-js-oreno)
+![LICENSE](https://img.shields.io/npm/l/react-editor-js-oreno?color=blue)
+[![Github Build Status](https://github.com/Jungwoo-An/react-editor-js-oreno/workflows/release/badge.svg)](https://github.com/Jungwoo-An/react-editor-js-oreno/actions)
 [![Semantic Release enabled](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 </div>
 
 ## 🍞 DEMO
 
-- [CodeSandbox](https://codesandbox.io/embed/react-editor-js-23opz)
+- [CodeSandbox](https://codesandbox.io/embed/react-editor-js-oreno-23opz)
 
 ## 🍀 Supported Official Plugin
 
@@ -40,13 +40,13 @@
 
 ```bash
 # editorjs and official plugins
-npm install --save-dev react-editor-js @editorjs/editorjs @editorjs/paragraph
+npm install --save-dev react-editor-js-oreno @editorjs/editorjs @editorjs/paragraph
 ```
 
 ### Usage
 
 ```js
-import EditorJs from 'react-editor-js';
+import EditorJs from 'react-editor-js-oreno';
 
 <EditorJs data={data} />;
 ```
@@ -75,7 +75,7 @@ npm install --save-dev @editorjs/checklist
 ```
 
 ```js
-import EditorJs from 'react-editor-js';
+import EditorJs from 'react-editor-js-oreno';
 import CheckList from '@editorjs/checklist';
 
 <EditorJs data={data} tools={{ checkList: CheckList }} />;
@@ -123,7 +123,7 @@ export const EDITOR_JS_TOOLS = {
 ```
 
 ```tsx
-import EditorJs from 'react-editor-js';
+import EditorJs from 'react-editor-js-oreno';
 import { EDITOR_JS_TOOLS } from './tools'
 <EditorJs data={data} tools={EDITOR_JS_TOOLS} />;
 ```
