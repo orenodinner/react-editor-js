@@ -954,9 +954,9 @@
   resolved "https://registry.yarnpkg.com/@editorjs/marker/-/marker-1.2.2.tgz#d9261a257436bf70179c0fa1e766ab85c823c96b"
   integrity sha512-BN/IHbVKKahGnMAiBOV5U7XUjfF6JkIkTZ6qNLxtTr7PUPM8UsJV8G8pyll9CX+XRUYYZyokA2kEBHTS4vUyyw==
 
-"@editorjs/paragraph@git+https://github.com/orenodinner/paragraph":
+"@editorjs/paragraph@https://github.com/orenodinner/paragraph":
   version "2.8.0"
-  resolved "git+https://github.com/orenodinner/paragraph#c8fa90e986291d715bf4aa06d74ab459ea205b35"
+  resolved "https://github.com/orenodinner/paragraph#9f6011c9f849f0eaed26b360ce697b54baf41c52"
 
 "@editorjs/quote@^2.4.0":
   version "2.4.0"
