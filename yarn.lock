@@ -956,7 +956,7 @@
 
 "@editorjs/paragraph@https://github.com/orenodinner/paragraph":
   version "2.8.0"
-  resolved "https://github.com/orenodinner/paragraph#c6266cc1f89f46177ccaa52f1bf2ae4d485cc016"
+  resolved "https://github.com/orenodinner/paragraph#436558b43385455183553f8e6b3cc46aec776fb6"
 
 "@editorjs/quote@^2.4.0":
   version "2.4.0"
